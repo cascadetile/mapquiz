@@ -152,7 +152,7 @@ export const Main: React.FC = () => {
           />
         )
       }
-      <div>
+      <div className="info">
         Click on
         &nbsp;
         {shuffledStreets[currentStreetIndex]}
